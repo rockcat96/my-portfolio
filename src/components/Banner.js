@@ -47,7 +47,7 @@ export const Banner = () => {
             <Container>
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
-                        <span className="tagline">Welcome to Portfolio</span>
+                        {/* <span className="tagline">Welcome to Portfolio</span> */}
                         <h1>{`Hi, I’m Michelle! I’m a `}<span className="wrap">{text}</span></h1>
                         <p>I enjoy uncovering how things work and thinking of ways to improve them. With six years of experience in marketing, I have strong analytical and problem-solving skills, an obsession with creating scalable and efficient solutions, a knack for thinking outside of the box, and strong empathy for the end user. I’m passionate about improving people’s health and making the world more accessible through technology and I’m looking for roles in healthcare that better lives.</p>
                         <button onClick={()=>{console.log('connect')}}>Let's connect<ArrowRightCircle size={25}/></button>
